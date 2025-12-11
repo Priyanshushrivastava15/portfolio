@@ -2,7 +2,7 @@ import {
   FaReact, FaNodeJs, FaPython, FaGitAlt, FaDatabase 
 } from "react-icons/fa";
 import { 
-  SiNextdotjs, SiTypescript, SiMongodb, SiExpress, SiCplusplus, SiTailwindcss 
+  SiTypescript, SiMongodb, SiExpress, SiCplusplus, SiTailwindcss 
 } from "react-icons/si";
 
 // REAL SKILLS FROM RESUME
