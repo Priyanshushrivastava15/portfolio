@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# 🚀 Priyanshu Shrivastava - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](src/assets/portfolio.png)
+A high-performance, interactive personal portfolio built with **React (Vite)**, **Tailwind CSS**, and **Framer Motion**. Designed to showcase full-stack MERN projects with a focus on modern UI/UX, smooth animations, and responsiveness.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Insert Your Vercel Link Here]
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **⚡ Fast & Responsive:** Built with Vite for instant loading and fully responsive on all devices.
+- **🎨 Cinematic UI:** Features a dark-mode aesthetic with grain textures, spotlight effects, and glowing gradients.
+- **🧩 Bento Grid Layout:** unique, Apple-style grid layout to showcase featured projects.
+- **🎞️ Smooth Animations:** Powered by **Framer Motion** for scroll reveals, hover effects, and transitions.
+- **🛠️ Interactive Elements:**
+  - **Floating Dock Navigation:** iOS-style floating menu.
+  - **Velocity Scroll:** Infinite moving marquee for skills.
+  - **Smart Contact:** Click-to-copy email interaction with direct mail redirect.
+- **📄 Resume Download:** One-click access to the latest CV.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Core:**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Expanding the ESLint configuration
+**Animations & UI:**
+- **Framer Motion** (Complex animations)
+- **Lucide React / React Icons** (Iconography)
+- **Aceternity UI / Magic UI** (Advanced components)
+- **Lenis** (Smooth scrolling engine)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📂 Projects Featured
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| **The Petro Shop** | React, Node, MongoDB | Full-stack e-commerce with dynamic cart & payments. |
+| **QuickNotes** | MERN Stack | Real-time notes app with CRUD & modern glassmorphism UI. |
+| **EchoPulse CRM** | MERN, Analytics | Internal tool for HR/Admin management & RBAC. |
+| **Digital Fly High** | React, Motion | Interactive corporate portfolio with advanced animations. |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+To run this project locally on your machine:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Priyanshushrivastava15/portfolio.git](https://github.com/Priyanshushrivastava15/portfolio.git)
+   cd portfolio
+Install Dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Bash
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+npm install
+Run the Development Server
+
+Bash
+
+npm run dev
+Open in Browser Visit http://localhost:5173 to see the site live.
+
+📬 Contact
+I am currently open to Freelance and Full-time Full Stack Developer roles.
+
+Email: priyanshushrivastavaa@gmail.com
+
+LinkedIn: Priyanshu Shrivastava
+
+GitHub: @Priyanshushrivastava15
+
+⭐ Star this repo if you like the design!
