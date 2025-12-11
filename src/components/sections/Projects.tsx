@@ -42,7 +42,7 @@ const projects = [
     className: "md:col-span-2",
     img: quicknotesImg, 
     tech: ["React (Vite)", "Node.js", "MongoDB Atlas", "Express"],
-    link: "https://quicknotes-backend-9k0a.onrender.com" 
+    link: "https://quicknotes-mern.vercel.app/" // <--- UPDATED LINK HERE
   },
 ];
 
@@ -71,17 +71,15 @@ const Projects = () => {
                 project.className
               )}
             >
-              {/* Image Section - UPDATED */}
+              {/* Image Section */}
               <div className="h-64 w-full overflow-hidden relative">
                 <img
                   src={project.img}
                   alt={project.title}
-                  // Added 'object-top' to align screenshots to the header
-                  // Changed scale-110 to scale-105 for subtler zoom
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
                 
-                {/* Optional: Dark gradient overlay so text is always readable if you move text over image later */}
+                {/* Optional dark gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
 
